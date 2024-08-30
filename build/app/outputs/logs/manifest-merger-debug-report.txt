@@ -1,0 +1,585 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:4:5-35:19
+MERGED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-analytics:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/40061bd522645a9a4896b4a6a65a72f9/transformed/jetified-firebase-analytics-22.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/40061bd522645a9a4896b4a6a65a72f9/transformed/jetified-firebase-analytics-22.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/honglaingit/.gradle/caches/transforms-3/61e7e33f5e2910c9b90f333954e17175/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/honglaingit/.gradle/caches/transforms-3/61e7e33f5e2910c9b90f333954e17175/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/08f82276328e9b228bcebacd1cc418a3/transformed/jetified-play-services-measurement-sdk-22.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/08f82276328e9b228bcebacd1cc418a3/transformed/jetified-play-services-measurement-sdk-22.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/honglaingit/.gradle/caches/transforms-3/c665d98797109df2ebfc18656fa8fbe7/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/honglaingit/.gradle/caches/transforms-3/c665d98797109df2ebfc18656fa8fbe7/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/3d02cb38943b3ef3d3ef407d25b585c3/transformed/jetified-play-services-measurement-base-22.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/3d02cb38943b3ef3d3ef407d25b585c3/transformed/jetified-play-services-measurement-base-22.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/honglaingit/.gradle/caches/transforms-3/180ee98749238b44e32081f02a88b4f1/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/honglaingit/.gradle/caches/transforms-3/180ee98749238b44e32081f02a88b4f1/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/honglaingit/.gradle/caches/transforms-3/8134ca469523cab8609ed83bb4c21b1f/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/honglaingit/.gradle/caches/transforms-3/8134ca469523cab8609ed83bb4c21b1f/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/honglaingit/.gradle/caches/transforms-3/6179bf307f53e28e82c278a78cf9f752/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/honglaingit/.gradle/caches/transforms-3/6179bf307f53e28e82c278a78cf9f752/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/c96d5d8b5f015451ab5ce373dabd6eea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/c96d5d8b5f015451ab5ce373dabd6eea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/40061bd522645a9a4896b4a6a65a72f9/transformed/jetified-firebase-analytics-22.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/honglaingit/.gradle/caches/transforms-3/61e7e33f5e2910c9b90f333954e17175/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/45d0bc66c7b67a25b77b4ba74abc65e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/08f82276328e9b228bcebacd1cc418a3/transformed/jetified-play-services-measurement-sdk-22.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/honglaingit/.gradle/caches/transforms-3/c665d98797109df2ebfc18656fa8fbe7/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/3d02cb38943b3ef3d3ef407d25b585c3/transformed/jetified-play-services-measurement-base-22.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/honglaingit/.gradle/caches/transforms-3/180ee98749238b44e32081f02a88b4f1/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/honglaingit/.gradle/caches/transforms-3/a3ff691d26f18cc63018e853d551b14a/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/honglaingit/.gradle/caches/transforms-3/2bf61aaaa614807565b1d6faacf19d1f/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/00a1f3ddab039f351df43289e25d5308/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0de8d7f339f0b39f8242a57fe6f044eb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8bb34da1370497c0cbd804945d66e83f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/9e75b5293c015aaa166f366142bfd08d/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/155958a7f3931ff90f5d293c6d8aef68/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/c1e90f7c34dfa2cff6360088dd58dece/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/dc37f3b1f64368019e5e6a1ab5971c41/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/5c8f3866490aa9ff7f2542ed75f9fc34/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/80d1a179920a579ba791af3584676802/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/honglaingit/.gradle/caches/transforms-3/8134ca469523cab8609ed83bb4c21b1f/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/honglaingit/.gradle/caches/transforms-3/6179bf307f53e28e82c278a78cf9f752/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/honglaingit/.gradle/caches/transforms-3/49307f966a45aec0752b735351a127aa/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/5f12070189a7953a899f06cb29b21f8a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/3612dbf32ed5b0fb14e358fc465dad37/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/794f93c8c08487f8c189249d56c82be0/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/e09aaf748b79582d15d3c35ff3f49c9f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/honglaingit/.gradle/caches/transforms-3/71953fcacaf674113b15c6f5cde2b429/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/4c17f48fe942292c6c34e6a5978e260a/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/b92a07aae439da202205462789c86696/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/honglaingit/.gradle/caches/transforms-3/92787ee7f8c562301e26f7c5f830ea6a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/c96d5d8b5f015451ab5ce373dabd6eea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/9a7cbf171b2a612623863c0be85b68f9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/e146cbb2e1c566ce5b6ef9cf06b0690e/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/74f382c0dfddad034e9d201c85a4cc7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/2068a05acf23849265ea05a0f3444033/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0ad9ea30d08107af89bd56bd1a0f3b74/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/honglaingit/.gradle/caches/transforms-3/d21de584d66bfa4969299614bbc4879d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/18723732e0a5c377014fd3806f1e35f0/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/honglaingit/.gradle/caches/transforms-3/814d61d3c31bf0144baad33c8a85995b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:1-47:12
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:3:22-64
+queries
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:41:5-46:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:43:21-70
+data
+ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:44:13-50
+	android:mimeType
+		ADDED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml:44:19-48
+uses-sdk
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/40061bd522645a9a4896b4a6a65a72f9/transformed/jetified-firebase-analytics-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/40061bd522645a9a4896b4a6a65a72f9/transformed/jetified-firebase-analytics-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/honglaingit/.gradle/caches/transforms-3/61e7e33f5e2910c9b90f333954e17175/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/honglaingit/.gradle/caches/transforms-3/61e7e33f5e2910c9b90f333954e17175/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/45d0bc66c7b67a25b77b4ba74abc65e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/45d0bc66c7b67a25b77b4ba74abc65e0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/08f82276328e9b228bcebacd1cc418a3/transformed/jetified-play-services-measurement-sdk-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/08f82276328e9b228bcebacd1cc418a3/transformed/jetified-play-services-measurement-sdk-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/honglaingit/.gradle/caches/transforms-3/c665d98797109df2ebfc18656fa8fbe7/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/honglaingit/.gradle/caches/transforms-3/c665d98797109df2ebfc18656fa8fbe7/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/3d02cb38943b3ef3d3ef407d25b585c3/transformed/jetified-play-services-measurement-base-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/3d02cb38943b3ef3d3ef407d25b585c3/transformed/jetified-play-services-measurement-base-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/honglaingit/.gradle/caches/transforms-3/180ee98749238b44e32081f02a88b4f1/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/honglaingit/.gradle/caches/transforms-3/180ee98749238b44e32081f02a88b4f1/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/honglaingit/.gradle/caches/transforms-3/a3ff691d26f18cc63018e853d551b14a/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/honglaingit/.gradle/caches/transforms-3/a3ff691d26f18cc63018e853d551b14a/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/honglaingit/.gradle/caches/transforms-3/2bf61aaaa614807565b1d6faacf19d1f/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/honglaingit/.gradle/caches/transforms-3/2bf61aaaa614807565b1d6faacf19d1f/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/00a1f3ddab039f351df43289e25d5308/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/00a1f3ddab039f351df43289e25d5308/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0de8d7f339f0b39f8242a57fe6f044eb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0de8d7f339f0b39f8242a57fe6f044eb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8bb34da1370497c0cbd804945d66e83f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8bb34da1370497c0cbd804945d66e83f/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/9e75b5293c015aaa166f366142bfd08d/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/9e75b5293c015aaa166f366142bfd08d/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/155958a7f3931ff90f5d293c6d8aef68/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/155958a7f3931ff90f5d293c6d8aef68/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/c1e90f7c34dfa2cff6360088dd58dece/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/c1e90f7c34dfa2cff6360088dd58dece/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/dc37f3b1f64368019e5e6a1ab5971c41/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/dc37f3b1f64368019e5e6a1ab5971c41/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/5c8f3866490aa9ff7f2542ed75f9fc34/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/5c8f3866490aa9ff7f2542ed75f9fc34/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/80d1a179920a579ba791af3584676802/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/80d1a179920a579ba791af3584676802/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/honglaingit/.gradle/caches/transforms-3/8134ca469523cab8609ed83bb4c21b1f/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/honglaingit/.gradle/caches/transforms-3/8134ca469523cab8609ed83bb4c21b1f/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/honglaingit/.gradle/caches/transforms-3/6179bf307f53e28e82c278a78cf9f752/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/honglaingit/.gradle/caches/transforms-3/6179bf307f53e28e82c278a78cf9f752/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/honglaingit/.gradle/caches/transforms-3/49307f966a45aec0752b735351a127aa/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/honglaingit/.gradle/caches/transforms-3/49307f966a45aec0752b735351a127aa/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/5f12070189a7953a899f06cb29b21f8a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/5f12070189a7953a899f06cb29b21f8a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/3612dbf32ed5b0fb14e358fc465dad37/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/3612dbf32ed5b0fb14e358fc465dad37/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/794f93c8c08487f8c189249d56c82be0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/794f93c8c08487f8c189249d56c82be0/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/e09aaf748b79582d15d3c35ff3f49c9f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/e09aaf748b79582d15d3c35ff3f49c9f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/honglaingit/.gradle/caches/transforms-3/71953fcacaf674113b15c6f5cde2b429/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/honglaingit/.gradle/caches/transforms-3/71953fcacaf674113b15c6f5cde2b429/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/4c17f48fe942292c6c34e6a5978e260a/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/4c17f48fe942292c6c34e6a5978e260a/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/b92a07aae439da202205462789c86696/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/b92a07aae439da202205462789c86696/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/honglaingit/.gradle/caches/transforms-3/92787ee7f8c562301e26f7c5f830ea6a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/honglaingit/.gradle/caches/transforms-3/92787ee7f8c562301e26f7c5f830ea6a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/c96d5d8b5f015451ab5ce373dabd6eea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/c96d5d8b5f015451ab5ce373dabd6eea/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/9a7cbf171b2a612623863c0be85b68f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/9a7cbf171b2a612623863c0be85b68f9/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/e146cbb2e1c566ce5b6ef9cf06b0690e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/e146cbb2e1c566ce5b6ef9cf06b0690e/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/74f382c0dfddad034e9d201c85a4cc7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/74f382c0dfddad034e9d201c85a4cc7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/2068a05acf23849265ea05a0f3444033/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/2068a05acf23849265ea05a0f3444033/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0ad9ea30d08107af89bd56bd1a0f3b74/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/honglaingit/.gradle/caches/transforms-3/0ad9ea30d08107af89bd56bd1a0f3b74/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/honglaingit/.gradle/caches/transforms-3/d21de584d66bfa4969299614bbc4879d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/honglaingit/.gradle/caches/transforms-3/d21de584d66bfa4969299614bbc4879d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/18723732e0a5c377014fd3806f1e35f0/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/18723732e0a5c377014fd3806f1e35f0/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/honglaingit/.gradle/caches/transforms-3/814d61d3c31bf0144baad33c8a85995b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/honglaingit/.gradle/caches/transforms-3/814d61d3c31bf0144baad33c8a85995b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/honglaingit/Desktop/vtech_todo/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/honglaingit/Desktop/vtech_todo/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/honglaingit/Desktop/vtech_todo/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/honglaingit/.gradle/caches/transforms-3/814d61d3c31bf0144baad33c8a85995b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/honglaingit/.gradle/caches/transforms-3/814d61d3c31bf0144baad33c8a85995b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:10:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.0] /Users/honglaingit/.gradle/caches/transforms-3/831774444edf75a1ea70978a1f33a1f4/transformed/jetified-firebase-firestore-25.1.0/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/8f016915383f8dbbb64ccecb861dec24/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/e28652fd081cab7608418464710d83da/transformed/jetified-play-services-measurement-sdk-api-22.1.0/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/ed5e489ef4859b5e95ff9f3c52c477c0/transformed/jetified-play-services-measurement-api-22.1.0/AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/honglaingit/.gradle/caches/transforms-3/bcf429e1f426839e0fa5c7ebdc238d87/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/4de0cbbe7ffe2a8ec056688e5666313f/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/honglaingit/.gradle/caches/transforms-3/fc3f1cc8f749420faa0ab0d3bb23e9b8/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/honglaingit/.gradle/caches/transforms-3/f1b7b7a1f12236450cc0b91a2b578187/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/9700b53a2c5ac2da028e0ee1c0b0e9f1/transformed/jetified-play-services-measurement-impl-22.1.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.0] /Users/honglaingit/.gradle/caches/transforms-3/b32c072bcd862fc76c01487b28a0b31f/transformed/jetified-play-services-measurement-22.1.0/AndroidManifest.xml:40:13-87
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/honglaingit/.gradle/caches/transforms-3/6936367dcb90f3dcf2df24bccf96903d/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/honglaingit/.gradle/caches/transforms-3/607c4962333322bf32744065477cca5e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/honglaingit/.gradle/caches/transforms-3/2b323ae7d9a84f0253125cf532c30cbf/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.vtech_todo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.vtech_todo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/honglaingit/.gradle/caches/transforms-3/f36401729866141d87885e57ebb310fa/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/honglaingit/.gradle/caches/transforms-3/521d7979264c08633922154f63dbec70/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/honglaingit/.gradle/caches/transforms-3/8a7427560054676ce07cdbba4d82e2a2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/honglaingit/.gradle/caches/transforms-3/4107670289065eaaa89b52da7b298b3c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
