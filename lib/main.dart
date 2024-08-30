@@ -6,7 +6,14 @@ import 'package:vtech_todo/module/todo/screen/todo_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+    apiKey: 'AIzaSyAbUu_wuP14Wwbm1gpvTqKMXOANCcC0cFI',
+    appId: 'vtechtodo',
+    messagingSenderId: 'sendid',
+    projectId: 'vtechtodo',
+    storageBucket: 'vtechtodo.appspot.com',
+  ));
   runApp(const MyApp());
 }
 
