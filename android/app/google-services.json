@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850274948324",
+    "project_id": "vtechtodo",
+    "storage_bucket": "vtechtodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850274948324:android:b55106bc7d0b11884848f1",
+        "android_client_info": {
+          "package_name": "com.example.vtech_todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbUu_wuP14Wwbm1gpvTqKMXOANCcC0cFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
