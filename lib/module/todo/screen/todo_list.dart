@@ -30,7 +30,7 @@ class TodoList extends GetView<TodoController> {
               .toList();
           if (documents.isEmpty) {
             return Center(
-                child:controller.searchStr.value != ''
+                child:controller.searchStr.value != '' 
                     ? const Text('No result. Create a new one instead')
                     : const Text('Empty todo list!'));
           } else {
