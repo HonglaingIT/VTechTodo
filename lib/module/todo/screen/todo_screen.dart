@@ -14,7 +14,9 @@ class TodoScreen extends GetView<TodoController> {
         unFocus(context);
       },
       child: Scaffold(
+        resizeToAvoidBottomInset: true,
         appBar: AppBar(
+          
           backgroundColor: Colors.blue,
           title: const Text(
             "VTech Todo",
@@ -137,9 +139,9 @@ class TodoScreen extends GetView<TodoController> {
                     Obx(
                       () => ElevatedButton(
                           onPressed: () {
-                             controller.pendingEditTodo.value == null
-                                  ?
-                            controller.addTodo():  controller.editTodo() ;
+                            controller.pendingEditTodo.value == null
+                                ? controller.addTodo()
+                                : controller.editTodo();
                           },
                           child: Container(
                             padding: const EdgeInsets.symmetric(vertical: 10),

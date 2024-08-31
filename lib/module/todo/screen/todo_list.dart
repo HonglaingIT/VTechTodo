@@ -21,21 +21,21 @@ class TodoList extends GetView<TodoController> {
         }
 
         return Obx(() {
-          var documents = snapshot.data!.docs
+          controller.todos = snapshot.data!.docs
               .map((DocumentSnapshot document) {
                 return TodoModel.fromJson(
                     document.data()! as Map<String, dynamic>);
               })
               .where((e) => e.description!.contains(controller.searchStr.value))
               .toList();
-          if (documents.isEmpty) {
+          if (controller.todos.isEmpty) {
             return Center(
-                child:controller.searchStr.value != '' 
+                child: controller.searchStr.value != ''
                     ? const Text('No result. Create a new one instead')
                     : const Text('Empty todo list!'));
           } else {
             return ListView(
-              children: documents.map((e) {
+              children: controller.todos.map((e) {
                 return Container(
                   margin: const EdgeInsets.only(bottom: 15.0),
                   decoration: BoxDecoration(

@@ -13,6 +13,7 @@ class TodoController extends GetxController {
   final fireStore = FirebaseFirestore.instance;
   final searchStr = ''.obs;
   final isSearch = false.obs;
+  List<TodoModel> todos = [];
 
   void changeSearch() {
     isSearch.value = !isSearch.value;
@@ -29,18 +30,30 @@ class TodoController extends GetxController {
   void addTodo() async {
     onUnfocused(false);
     if (formKey.currentState?.validate() ?? false) {
-      DocumentReference docRef = await fireStore.collection('todos').add(
-        {
-          'description': textEditingController.text,
-          'isComplete': false,
-        },
-      );
-      _clearText();
+      if (todos.any((e) =>
+          e.description!.toLowerCase() ==
+          textEditingController.text.toLowerCase().trim())) {
+        ScaffoldMessenger.of(Get.context!).showSnackBar(
+          const SnackBar(
+              content: Text('Todo exists in the list!'),
+              dismissDirection: DismissDirection.down,
+              behavior: SnackBarBehavior.floating,
+              showCloseIcon: true),
+        );
+      } else {
+        DocumentReference docRef = await fireStore.collection('todos').add(
+          {
+            'description': textEditingController.text.trim(),
+            'isComplete': false,
+          },
+        );
+        _clearText();
 
-      String taskId = docRef.id;
-      await fireStore.collection('todos').doc(taskId).update(
-        {'id': taskId},
-      );
+        String taskId = docRef.id;
+        await fireStore.collection('todos').doc(taskId).update(
+          {'id': taskId},
+        );
+      }
     }
   }
 
@@ -70,7 +83,7 @@ class TodoController extends GetxController {
     String taskId = pendingEditTodo.value!.id!;
     if (formKey.currentState?.validate() ?? false) {
       await fireStore.collection('todos').doc(taskId).update({
-        'description': textEditingController.text,
+        'description': textEditingController.text.trim(),
       });
       _clearText();
     }
