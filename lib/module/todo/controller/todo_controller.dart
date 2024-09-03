@@ -12,7 +12,9 @@ class TodoController extends GetxController {
   final onUnfocused = false.obs;
   final fireStore = FirebaseFirestore.instance;
   final searchStr = ''.obs;
-  final isSearch = false.obs;
+  final isSearch = true.obs;
+
+  final FocusNode focusNode = FocusNode();
   List<TodoModel> todos = [];
 
   void changeSearch() {
@@ -47,7 +49,7 @@ class TodoController extends GetxController {
             'isComplete': false,
           },
         );
-        _clearText();
+        clearText();
 
         String taskId = docRef.id;
         await fireStore.collection('todos').doc(taskId).update(
@@ -67,6 +69,7 @@ class TodoController extends GetxController {
   void deleteTodo(TodoModel todo) async {
     String taskId = todo.id!;
     await fireStore.collection('todos').doc(taskId).delete();
+    clearText();
   }
 
   void changeEditStatus(TodoModel todo) {
@@ -85,13 +88,14 @@ class TodoController extends GetxController {
       await fireStore.collection('todos').doc(taskId).update({
         'description': textEditingController.text.trim(),
       });
-      _clearText();
+      clearText();
     }
   }
 
-  void _clearText() {
+  void clearText() {
     textEditingController.clear();
     pendingEditTodo.value = null;
+    searchStr('');
     onUnfocused(true);
   }
 }

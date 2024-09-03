@@ -28,6 +28,14 @@ class TodoList extends GetView<TodoController> {
               })
               .where((e) => e.description!.contains(controller.searchStr.value))
               .toList();
+          controller.todos.sort((a, b) {
+            if (a.isComplete == b.isComplete) {
+              return a.description!.toLowerCase().compareTo(b.description!.toLowerCase());
+            } else {
+              return a.isComplete! ? -1 : 1;
+            }
+          });
+
           if (controller.todos.isEmpty) {
             return Center(
                 child: controller.searchStr.value != ''
@@ -76,14 +84,15 @@ class TodoList extends GetView<TodoController> {
                           mainAxisAlignment: MainAxisAlignment.end,
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            IconButton(
-                                onPressed: () {
-                                  controller.changeEditStatus(e);
-                                },
-                                icon: const Icon(
-                                  Icons.edit_outlined,
-                                  color: Colors.blue,
-                                )),
+                            if (!(e.isComplete ?? false))
+                              IconButton(
+                                  onPressed: () {
+                                    controller.changeEditStatus(e);
+                                  },
+                                  icon: const Icon(
+                                    Icons.edit_outlined,
+                                    color: Colors.blue,
+                                  )),
                             IconButton(
                                 onPressed: () {
                                   controller.deleteTodo(e);
